@@ -3,21 +3,21 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import path from 'node:path'
 
-import siteConfiguration from './.figma/make/site.json'
-
+import { defineConfig } from 'vite'
 
 // Vite config — https://vitejs.dev/config/
-export default defineConfig({
-  base: '/LandingCrediOportunidad/'}) => {
+export default defineConfig(({ mode }) => {
   // .figma/make/deploy-preview passes `--mode development` for cached-preview builds.
   const emitSourcemaps = mode === 'development'
 
   return {
-    base: process.env.FIGMA_PUBLIC_URL ? `${process.env.FIGMA_PUBLIC_URL}/` : '/',
+    base: '/LandingCrediOportunidad/', // ← Tu repositorio de GitHub Pages
     build: {
-      sourcemap: emitSourcemaps ? 'inline' : false,
-      minify: !emitSourcemaps,
-    },
+      sourcemap: emitSourcemaps,
+    }
+  }
+})
+
     plugins: [
 react(),
       tailwindcss(),
