@@ -1,0 +1,12 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="35" height="32" viewBox="0 0 35 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="money bundle">
+<path id="vector" d="M1 13.2308C1 11.4465 2.34315 10 4 10H31C32.6569 10 34 11.4465 34 13.2308V27.7692C34 29.5535 32.6569 31 31 31H4C2.34314 31 1 29.5535 1 27.7692V13.2308Z" stroke="#00239C" stroke-width="2"/>
+<path id="vector_2" d="M32.5 15.25H31.75C29.6789 15.25 28 13.5711 28 11.5" stroke="#00239C" stroke-width="2" stroke-linecap="round"/>
+<path id="vector_3" d="M32.5 25.75H31.75C29.6789 25.75 28 27.4289 28 29.5" stroke="#00239C" stroke-width="2" stroke-linecap="round"/>
+<path id="vector_4" d="M2.5 15.25H3.25C5.32107 15.25 7 13.5711 7 11.5" stroke="#00239C" stroke-width="2" stroke-linecap="round"/>
+<path id="vector_5" d="M2.5 25.75H3.25C5.32107 25.75 7 27.4289 7 29.5" stroke="#00239C" stroke-width="2" stroke-linecap="round"/>
+<path id="vector_6" d="M20.875 20.5C20.875 22.364 19.364 23.875 17.5 23.875C15.636 23.875 14.125 22.364 14.125 20.5C14.125 18.636 15.636 17.125 17.5 17.125C19.364 17.125 20.875 18.636 20.875 20.5Z" stroke="#00239C" stroke-width="2"/>
+<path id="line" d="M4 5.5H31" stroke="#00239C" stroke-width="2" stroke-linecap="round"/>
+<path id="line_2" d="M7 1H28" stroke="#00239C" stroke-width="2" stroke-linecap="round"/>
+</g>
+</svg>

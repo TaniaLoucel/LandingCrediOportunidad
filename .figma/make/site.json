@@ -1,0 +1,10 @@
+{
+  "description": "This web application transforms Figma designs into fully functional websites, ensuring design fidelity and optimal user experience for designers and developers.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
